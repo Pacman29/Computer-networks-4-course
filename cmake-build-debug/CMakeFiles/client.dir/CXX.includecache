@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pacman29/CLionProjects/Computer-networks-4-course/client.cpp
+iostream
+-
+netinet/in.h
+-
+string.h
+-
+zconf.h
+-
+netdb.h
+-
+arpa/inet.h
+/home/pacman29/CLionProjects/Computer-networks-4-course/arpa/inet.h
+sys/socket.h
+/home/pacman29/CLionProjects/Computer-networks-4-course/sys/socket.h
+sys/types.h
+/home/pacman29/CLionProjects/Computer-networks-4-course/sys/types.h
+
