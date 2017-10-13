@@ -37,6 +37,7 @@ int main() {
 
     while(true){
         char request[128];
+        bzero(request,128);
         int client = sizeof(client_addres);
         if(recvfrom(socket_file_descriptor, request, 128, 0, (struct sockaddr*) &client_addres,
                     reinterpret_cast<socklen_t *>(&client)) < 0){

@@ -56,6 +56,7 @@ int main() {
     }
 
     char response[128];
+    bzero(response,128);
     if(recvfrom(socket_file_descriptor,response,128, 0, NULL, NULL) < 0){
         cout << "Error with response" << endl;
         close(socket_file_descriptor);
